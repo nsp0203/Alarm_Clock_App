@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ringtones">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ringtones"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:id="@+id/title">
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:paddingTop="10dp"
+        android:background="@color/d_grey"
+        android:nestedScrollingEnabled="true"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+<!---
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slot Machine Win"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:id="@+id/r_1"
+        android:layout_below="@+id/title"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="17dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/r_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:layout_below="@+id/r_1"
+        android:text="Whistle"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="17dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/r_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r_2"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:text="Serenity"
+        android:textSize="17dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/r_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r_3"
+        android:text="Relaxed"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:clickable="true"
+        android:minHeight="48dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/r_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r_4"
+        android:text="Nostalgic"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:clickable="true"
+        android:minHeight="48dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/r_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r_5"
+        android:clickable="true"
+        android:text="Messy"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:minHeight="48dp">
+    </TextView>
+
+-->
+
+</RelativeLayout>
